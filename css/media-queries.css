@@ -1,0 +1,69 @@
+@media only screen and (min-width: 1000px) {
+    
+	.name {
+		width: 300px;
+	}
+
+	section.desk .skew::before {
+		background-size: cover;
+	}
+}
+
+
+@media only screen and (max-width: 780px) {
+    
+	.name {
+		width: 50%;
+	}
+
+	section.about {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+	.name {
+		width: 75%;
+	}
+	
+	section.about p {
+	width: 90%;
+	float: none;
+	}	
+
+	section.about img {
+		float: none;
+		margin-left: 35%;
+	}
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    
+	.name {
+		width: 90%;
+	}
+
+	section.about img {
+		margin-left: 25%;
+		margin-bottom: 10px;
+	}
+
+	section.social ul {
+	width: 300px;
+	}
+
+	section.social::before {
+		height: 320px;
+	}
+
+	
+
+}
