@@ -34,8 +34,8 @@ header {
 	background: url(../img/bg-dt-94.jpg) fixed;
 	background-position: bottom center;
 	background-size: cover;
-	position: relative;
-	z-index: 1;
+	/*position: relative;
+	z-index: 1;*/
 }
 
 nav {
