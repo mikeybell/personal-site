@@ -112,24 +112,6 @@ h2 {
 	margin-top: 7px;
 }
 
-/*
-.bars .light:first-child {
-	background: rgba(37,49,54,0.1);
-}
-
-.bars .light:nth-child(2) {
-	background: rgba(37,49,54,0.2);
-}
-
-.bars .light:nth-child(3) {
-	background: rgba(37,49,54,0.3);
-}
-
-.bars .light:nth-child(4) {
-	background: rgba(37,49,54,0.4);
-}
-*/
-
 
 
 /* About */
@@ -170,14 +152,50 @@ h3 {
 	text-align: center;
 }
 
-.logos {
-	max-width: 600px;
-	margin: 0 auto;
+.devicons {
+	font-size: 10rem;
+	color: #F4B882;
 }
 
-.logos img {
-	max-width: 100%;
+.digi-logos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
 }
+
+.devicons-html5 {
+	color: #f1652a;
+}
+
+.devicons-css3 {
+	color: #2aa9e0;
+}
+
+.devicons-sass {
+	color: #d06397;
+}
+
+.devicons-javascript_badge {
+	color: #F0DB4F;
+}
+
+.devicons-sublime {
+	color: #4B4B4A;
+}
+
+.devicons-github_badge {
+	color: #000000;
+}
+
+.devicons-photoshop {
+	color: #031B38;
+}
+
+.devicons-illustrator {
+	color: #F57419;
+}
+
 
 .logos ul {
 	padding: 0;
@@ -185,21 +203,6 @@ h3 {
 	list-style: none;
 }
 
-.digi-logos li  {
-	float: left;
-	width: 25%;
-	text-align: center;
-}
-
-.design-logos li {
-	float: left;
-	width: 25%;
-	text-align: center;
-}
-
-.nudge {
-	padding-top: 12px; 
-}
 
 
 /* Desk Image */
